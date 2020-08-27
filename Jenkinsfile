@@ -3,6 +3,8 @@
 
 
  pipeline {
+ agent{
+ label 'buildslave'}
 
  stages {
  
